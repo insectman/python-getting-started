@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "barcodes"
+version = "0.1.0"
+description = ""
+authors = ["insectman <insectman@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+py7zr = "^0.22.0"
+python-barcode = "^0.15.1"
+IMAPClient = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+functions:
+  - name: ya-mail-bcd
+    runtime: python3.12
+    handler: bcd.handler
